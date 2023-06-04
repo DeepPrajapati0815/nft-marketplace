@@ -1,0 +1,10 @@
+.userBannerContainer {
+  height: 35vh;
+  width: 100%;
+}
+
+.userBannerImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

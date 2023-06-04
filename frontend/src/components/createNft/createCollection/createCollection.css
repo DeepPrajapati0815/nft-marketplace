@@ -1,0 +1,31 @@
+.createCollectionContainerMain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 20%;
+}
+
+.createCollectionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.dropFileBannerContainer {
+  margin-top: 5px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.dropFileBannerContainer img {
+  width: 400px;
+  object-fit: cover;
+  height: 160px;
+  border-radius: 10px;
+}

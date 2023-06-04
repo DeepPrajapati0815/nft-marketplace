@@ -1,0 +1,63 @@
+.nftAudioCard {
+  background: #ffffff25;
+  border-radius: 10px;
+  margin: 0 10px 20px 10px;
+}
+
+.nftCardAudioContainerMain {
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+}
+
+.nftCardAudioContainer {
+  position: relative;
+  content: "";
+  background: url("https://w0.peakpx.com/wallpaper/224/1002/HD-wallpaper-music-music-symbol-thumbnail.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.playPauseBtn {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: #00000075;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.nftAudioCardPlayPauseIcon {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 1100px) {
+  .nftAudioCard {
+    height: 370px;
+  }
+}
+
+@media (max-width: 800px) {
+  .nftAudioCard {
+    height: 370px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nftAudioCard {
+    height: 270px;
+  }
+}
+
+@media (max-width: 400px) {
+  .nftAudioCard {
+    height: 240px;
+  }
+}

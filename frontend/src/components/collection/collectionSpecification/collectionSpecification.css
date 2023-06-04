@@ -1,0 +1,28 @@
+.collectionSpecificationContainerMain {
+  margin-left: 10%;
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+
+.collectionSpecificationDetails {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.collectionSpecificationHeading {
+  color: #aeaeae;
+  font-weight: 300;
+}
+
+@media (max-width: 500px) {
+  .collectionSpecificationDetails {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .collectionSpecificationHeading {
+    font-size: 1.1rem;
+  }
+}

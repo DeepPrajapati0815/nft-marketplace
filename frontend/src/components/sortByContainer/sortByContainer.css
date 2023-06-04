@@ -1,0 +1,26 @@
+.sortByContainer {
+  margin-right: 20px;
+  margin-top: 15px;
+  float: right;
+}
+
+.sortByContainerBtn {
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  background: #16161690;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sortByContainerBtn:hover {
+  background: #242424;
+}
+
+.arrow {
+  margin-right: 10px;
+}

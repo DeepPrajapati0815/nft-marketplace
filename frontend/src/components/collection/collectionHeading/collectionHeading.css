@@ -1,0 +1,42 @@
+.collectionHeadingContainerMain {
+  margin-left: 10%;
+  margin-top: -5%;
+}
+
+.collectionHeadingAndVerificationImgContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.collectionHeading {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.collectionVerificationImgContainer {
+  width: 2%;
+}
+
+.collectionVerificationImg {
+  width: 100%;
+  margin-top: 5px;
+}
+
+@media (max-width: 900px) {
+  .collectionVerificationImgContainer {
+    width: 3%;
+  }
+}
+
+@media (max-width: 600px) {
+  .collectionVerificationImgContainer {
+    width: 4%;
+  }
+}
+
+@media (max-width: 400px) {
+  .collectionVerificationImgContainer {
+    width: 5%;
+  }
+}

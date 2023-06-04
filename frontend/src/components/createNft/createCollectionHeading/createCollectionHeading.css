@@ -1,0 +1,21 @@
+.createCollectionHeadingAndDescriptionContainer {
+  margin-top: 70px;
+  width: 50%;
+}
+
+.createCollectionHeading {
+  padding: 5px;
+  color: #fff;
+}
+
+.createCollectionDescription {
+  padding: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1000px) {
+  .createCollectionHeadingAndDescriptionContainer {
+    width: 90%;
+  }
+}

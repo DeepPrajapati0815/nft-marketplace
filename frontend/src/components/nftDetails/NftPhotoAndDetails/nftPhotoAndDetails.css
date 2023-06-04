@@ -1,0 +1,15 @@
+.nftPhotoAndDetails {
+  width: 50%;
+}
+
+@media (max-width: 1250px) {
+  .nftPhotoAndDetails {
+    width: 70%;
+  }
+}
+
+@media (max-width: 850px) {
+  .nftPhotoAndDetails {
+    width: 80%;
+  }
+}

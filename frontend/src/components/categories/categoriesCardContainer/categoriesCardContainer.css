@@ -1,0 +1,18 @@
+.categoriesCardsContainerMains {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.categoriesCardsLink {
+  text-decoration: none;
+}
+
+/* @media (max-width: 600px) {
+  .categoriesCardsContainerMains {
+    flex-direction: column;
+  }
+} */

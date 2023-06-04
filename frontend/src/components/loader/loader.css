@@ -1,0 +1,15 @@
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+  margin-bottom: 4%;
+  flex-direction: column;
+}
+
+.loaderHeading {
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 1.3rem;
+}

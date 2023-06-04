@@ -1,0 +1,52 @@
+.homeSliderContainer {
+  width: 100%;
+  margin: auto;
+}
+
+.homeSliderImageContainer {
+  height: 85vh;
+  width: 100vw;
+  border-radius: 10px;
+}
+
+.homeSliderImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ffffff47;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 7px;
+  z-index: 1;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+  font-size: 1rem;
+  line-height: 10px;
+}
+
+.prev-arrow {
+  left: 10px;
+}
+
+.next-arrow {
+  right: 10px;
+}
+
+.slider-arrow:hover {
+  background-color: #ffffff73;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .homeSliderImageContainer {
+    height: 60vh;
+  }
+}

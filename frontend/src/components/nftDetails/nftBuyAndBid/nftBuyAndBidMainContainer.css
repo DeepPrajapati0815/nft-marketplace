@@ -1,0 +1,19 @@
+.NftBuyAndBidMainContainer {
+  width: 50%;
+}
+
+@media (max-width: 1250px) {
+  .NftBuyAndBidMainContainer {
+    width: 70%;
+  }
+}
+@media (max-width: 850px) {
+  .NftBuyAndBidMainContainer {
+    width: 80%;
+  }
+}
+@media (max-width: 750px) {
+  .NftBuyAndBidMainContainer {
+    width: 90%;
+  }
+}

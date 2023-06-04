@@ -1,0 +1,76 @@
+.searchItemsContainer {
+  background: #fff;
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  width: 100%;
+  max-height: 50vh;
+  overflow: auto;
+  z-index: 100;
+}
+
+.searchItemsContainer::-webkit-scrollbar {
+  width: 4px;
+}
+
+.searchItemsContainer::-webkit-scrollbar-track {
+  background: none;
+}
+
+.searchItemsContainer::-webkit-scrollbar-thumb {
+  background: #c9c5c5;
+  border-radius: 10px;
+}
+
+.SearchSingleItem {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.SearchSingleItem:hover {
+  background: rgba(100, 100, 100, 0.058);
+}
+
+.searchItemsContainerHeading {
+  color: #848484;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.searchItemImageContainer {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.searchItemImage {
+  border-radius: 10px;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .SearchSingleItem {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .searchItemsContainerHeading {
+    font-size: 0.9rem;
+  }
+  .SearchSingleItem {
+    font-size: 0.8rem;
+  }
+
+  .searchItemImageContainer {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+}

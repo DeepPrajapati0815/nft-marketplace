@@ -1,0 +1,25 @@
+.pageBtnContainer {
+  margin: 20px auto;
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pageBtnContainer button {
+  background: hsla(0, 0%, 99%, 0.11);
+  border: 1px solid #ffffff11;
+  color: #fff;
+  text-align: center;
+  font-size: 1.1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.pageBtnContainer button:hover {
+  background: hsla(0, 1%, 25%, 0.334);
+}

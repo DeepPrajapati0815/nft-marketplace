@@ -1,0 +1,21 @@
+.nftBuyBidAndSaleContainer {
+  margin-top: 40px;
+  border: 1px solid #fff;
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.nftCreatorDetails {
+  margin-top: "10px";
+  color: #ffffff;
+  margin: 3px 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 665px) {
+  .nftBuyBidAndSaleContainer {
+    width: 100%;
+  }
+}

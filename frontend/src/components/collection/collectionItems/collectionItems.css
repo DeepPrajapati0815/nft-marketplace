@@ -1,0 +1,25 @@
+.collectionItemContainerMain {
+  margin-left: 10%;
+  margin-top: 15px;
+}
+
+.collectionItemContainer {
+  padding: 5px 0 5px 0;
+}
+
+.collectionItemUl {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  word-spacing: 5px;
+}
+
+.collectionItems {
+  color: #fff;
+  list-style: none;
+  font-size: 1.7rem;
+}
+
+.collectionItemSpan {
+  color: #bababa;
+}

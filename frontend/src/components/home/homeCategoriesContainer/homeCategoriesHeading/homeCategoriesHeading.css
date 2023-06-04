@@ -1,0 +1,17 @@
+.homeCategoriesHeading {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+@media (max-width: 630px) {
+  .homeCategoriesHeading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .homeCategoriesHeading {
+    font-size: 1.7rem;
+  }
+}

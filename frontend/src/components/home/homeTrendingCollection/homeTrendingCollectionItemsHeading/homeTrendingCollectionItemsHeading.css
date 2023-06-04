@@ -1,0 +1,66 @@
+.homeTrendingCollectionItemsHeadingContainer {
+  margin-top: 15px;
+  display: flex;
+}
+
+.homeTrendingCollectionItemCollectionHeadingContainer {
+  width: 100%;
+}
+
+.homeTrendingCollectionItemCollectionHeading {
+  color: #fff;
+  font-weight: 300;
+  width: 100%;
+}
+
+.homeTrendingCollectionItemsHeadingContainerMain {
+  display: flex;
+  gap: 50px;
+  justify-content: flex-end;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.homeTrendingCollectionHeadingContainerMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.homeTrendingCollectionHeadingIconContainer {
+  display: flex;
+}
+
+.homeTrendingCollectionItemHeading {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.homeTrendingCollectionIconDown {
+  color: #fff;
+  transform: translate(0, 5px);
+}
+
+.homeTrendingCollectionIconUp {
+  color: #fff;
+  transform: translate(-16.2px, -5px);
+}
+
+.homeTrendingCollectionItemVolChange {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.arrowUpRight {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.arrowBottomleft {
+  font-size: 1.2rem;
+  color: #fff;
+}

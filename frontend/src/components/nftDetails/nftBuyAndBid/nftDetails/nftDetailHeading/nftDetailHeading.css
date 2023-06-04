@@ -1,0 +1,16 @@
+.nftDetailHeadingContainer {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 5px 0;
+}
+
+.nftDescriptionIcon {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.nftDescription {
+  color: #fff;
+}

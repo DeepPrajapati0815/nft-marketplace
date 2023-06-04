@@ -1,0 +1,33 @@
+.collectionProfileContainer {
+  width: 10%;
+  transform: translateX(100%) translateY(-70%);
+}
+
+.collectionProfile {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  object-fit: cover;
+}
+
+@media (max-width: 700px) {
+  .collectionProfileContainer {
+    width: 15%;
+    transform: translateX(90%) translateY(-70%);
+  }
+}
+
+@media (max-width: 450px) {
+  .collectionProfileContainer {
+    width: 20%;
+    transform: translateX(70%) translateY(-70%);
+  }
+}
+
+@media (max-width: 340px) {
+  .collectionProfileContainer {
+    width: 30%;
+    transform: translateX(30%) translateY(-70%);
+  }
+}

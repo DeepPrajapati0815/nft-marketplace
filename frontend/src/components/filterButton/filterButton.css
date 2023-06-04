@@ -1,0 +1,30 @@
+.filterButtonContainer {
+  margin-top: 20px;
+  margin-left: 20px;
+  /* width: 80%; */
+}
+
+.filterButton {
+  padding: 8px;
+  border-radius: 30px;
+  width: 120px;
+  font-size: 1.1rem;
+  background: #16161690;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.filterButton:hover {
+  background: #242424;
+}
+
+.funnelImage {
+  width: 18%;
+}
+
+@media (max-width: 1000px) {
+}

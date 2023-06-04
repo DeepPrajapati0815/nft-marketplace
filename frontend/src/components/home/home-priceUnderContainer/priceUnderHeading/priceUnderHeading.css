@@ -1,0 +1,22 @@
+.priceUnderHeadingContainer {
+  margin-top: 20px;
+}
+
+.priceUnderHeading {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+@media (max-width: 630px) {
+  .priceUnderHeading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .priceUnderHeading {
+    font-size: 1.8rem;
+  }
+}

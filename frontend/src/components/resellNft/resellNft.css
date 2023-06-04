@@ -1,0 +1,25 @@
+.resellNftDetailsMainContainer {
+  display: flex;
+  width: 100%;
+}
+
+.resellNftDetailsContainer {
+  width: 50%;
+}
+
+@media (max-width: 1250px) {
+  .resellNftDetailsMainContainer {
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    align-self: center;
+  }
+  .resellNftDetailsContainer {
+    width: 100%;
+  }
+  .resellNftPhoto {
+    width: 90%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,40 @@
+.chooseParaAndRadioBtnContainerMain {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.chooseParaAndRadioBtnContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.chooseContainerPara {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-right: 10px;
+}
+
+.chooseCollection {
+  width: 100%;
+}
+
+.chooseCollectionSelect {
+  margin-top: 10px !important;
+}
+
+.ChooseCollectionItemsSelectBtn {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background-color: rgba(17, 11, 11, 0.14);
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.chooseCollectionCreateCancelBtn {
+  display: flex;
+  justify-content: space-between;
+}

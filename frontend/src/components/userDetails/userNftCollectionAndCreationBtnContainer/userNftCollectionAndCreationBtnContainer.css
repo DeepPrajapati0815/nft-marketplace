@@ -1,0 +1,34 @@
+.userNftCollectionAndCreationBtnContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-top: 40px;
+}
+
+.UserNftCollectionBtnContainer {
+  margin: 15px;
+}
+
+.UserNftCollectionBtn {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.UserNftCollectionBtnActive {
+  color: #fff;
+  font-size: 1.2rem;
+  /* text-decoration: underline; */
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #ffffff14;
+  cursor: pointer;
+}
+
+@media (max-width: 730px) {
+  .userNftCollectionAndCreationBtnContainer {
+    margin-left: 0;
+  }
+}

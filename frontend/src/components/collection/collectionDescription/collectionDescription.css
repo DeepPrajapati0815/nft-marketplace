@@ -1,0 +1,16 @@
+.collectionDescriptionContainer {
+  margin-left: 10%;
+  width: 50%;
+  margin-top: 15px;
+}
+
+.collectionDescription {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  .collectionDescriptionContainer {
+    width: 80%;
+  }
+}

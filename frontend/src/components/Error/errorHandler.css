@@ -1,0 +1,39 @@
+.errorContainer {
+  background: linear-gradient(to right, #fe0944, #ff0037);
+  color: #fff;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  top: 15.4%;
+  left: 20%;
+  z-index: 11111;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  /* margin: 10px auto; */
+  font-size: 1.2rem;
+}
+
+.errorMessage {
+  /* font-weight: 800; */
+  background-color: #fe585812;
+  display: inline-block;
+  color: #fff;
+}
+
+.closeErrorIcon {
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .errorMessage {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .errorMessage {
+    font-size: 0.6rem;
+  }
+}

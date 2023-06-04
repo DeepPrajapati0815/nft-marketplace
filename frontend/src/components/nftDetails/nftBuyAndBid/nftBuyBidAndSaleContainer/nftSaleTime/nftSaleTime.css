@@ -1,0 +1,29 @@
+.NftSaleTimeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.saleEndTimeContainer {
+  margin: 10px 0 5px 0;
+}
+
+.saleAndTime {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.timeContainer {
+  margin: 5px 0 10px 0;
+}
+
+/* .time {
+  color: #fff;
+} */
+
+.timeAccurate {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 1.4rem;
+}

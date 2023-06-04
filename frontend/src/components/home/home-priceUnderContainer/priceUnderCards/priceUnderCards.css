@@ -1,0 +1,11 @@
+.nftCardContainer {
+  overflow-x: scroll;
+}
+
+.nftCardContainer::-webkit-scrollbar {
+  height: 3px;
+}
+
+.nftCardContainer::-webkit-scrollbar-track {
+  background: #424242;
+}

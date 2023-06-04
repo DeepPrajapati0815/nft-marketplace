@@ -1,0 +1,27 @@
+.homeTrendingCollectionFilterBtnContainer {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.HomeTrendingCollectionFilterBtn {
+  color: #fff;
+  background: hsla(0, 0%, 99%, 0.11);
+  border: 1px solid #fff;
+  width: 9%;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  gap: 2px;
+  cursor: pointer;
+}
+
+.homeTrendingCollectionBtnSpan {
+  font-size: 1.2rem;
+}
+
+.homeTrendingCollectionBtnIcon {
+  font-size: 1rem;
+  margin-top: 2px;
+}

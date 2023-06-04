@@ -1,0 +1,19 @@
+.priceUnderContainerMain {
+  margin-left: 20px;
+}
+
+.priceUnderCardsContainer {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.priceUnderContainerHr {
+  margin: 10px 5px 20px 5px;
+  border-color: #ffffffa1;
+}
+
+.priceUnderCardsContainer::-webkit-scrollbar {
+  height: 3px;
+}

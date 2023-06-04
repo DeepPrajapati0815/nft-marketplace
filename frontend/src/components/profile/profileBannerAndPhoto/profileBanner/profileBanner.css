@@ -1,0 +1,23 @@
+.profileBannerContainer {
+  height: 35vh;
+  width: 100%;
+  cursor: pointer;
+}
+
+.profileBanner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profileBannerEditIcon {
+  color: #ffffffcb;
+  float: right;
+  transform: translate(-20px, -60px);
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.profileBannerEditIcon:hover {
+  color: #fff;
+}

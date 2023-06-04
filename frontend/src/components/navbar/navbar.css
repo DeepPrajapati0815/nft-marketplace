@@ -1,0 +1,260 @@
+.navContainer {
+  display: flex;
+  padding: 10px;
+  background-color: #ffffff19;
+  align-items: center;
+  color: #fff;
+}
+
+.logoContainer {
+  margin-right: 5%;
+}
+
+.logo {
+  /* width: 40%; */
+  /* height: 10vh; */
+  margin-left: 20px;
+  width: 50px;
+}
+
+.searchContainer {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchContainerMain {
+  width: 30%;
+  position: relative;
+}
+
+.searchBar {
+  padding: 8px 15px;
+  border-radius: 20px;
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.searchBar:focus {
+  outline: none;
+}
+
+.searchIcon {
+  font-size: 1.4rem;
+  width: 5%;
+  position: absolute;
+  color: black;
+  bottom: 10%;
+  right: 10px;
+  cursor: pointer;
+}
+
+.searchColseIcon {
+  color: black;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  cursor: pointer;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+.navUl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+
+.navItemsLink {
+  text-decoration: none;
+}
+
+.navItems {
+  margin: 20px;
+  list-style: none;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.signInContainer {
+  flex: 1;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signIn {
+  width: 100%;
+  padding: 7px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+  background: hsla(0, 0%, 99%, 0.11);
+  border: 1px solid #ffffff11;
+}
+
+.signInBtn {
+  width: 50%;
+  padding: 7px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+  background: hsla(0, 0%, 99%, 0.11);
+  border: 1px solid #ffffff11;
+}
+
+.navResponsiveBtn {
+  display: none;
+}
+
+.logoutBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10%;
+  padding: 5%;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  background-color: #ffffff11;
+}
+
+.userLogoutBtn {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navProfileIcon {
+  font-size: 2rem;
+  color: #fff;
+}
+
+@media (max-width: 1000px) {
+  .navContainer {
+    justify-content: space-between;
+  }
+
+  .logoutBtn {
+    font-size: 0.9rem;
+    padding: 2.3%;
+  }
+
+  .navItemsLink {
+    margin-left: 50%;
+  }
+
+  .navResponsiveBtn {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 1.3rem;
+  }
+
+  .navUl {
+    display: none;
+  }
+  .searchContainerMain {
+    width: 40%;
+  }
+
+  .searchBar {
+    padding: 5px;
+    font-size: 0.9rem;
+  }
+
+  .signIn {
+    display: none;
+  }
+
+  .signInBtn {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+  .searchContainerMain {
+    width: 40%;
+  }
+  .logoutBtn {
+    padding: 4%;
+  }
+}
+
+@media (max-width: 550px) {
+  .signIn {
+    width: 80%;
+  }
+
+  .logoutBtn {
+    display: none;
+  }
+
+  .searchBar {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .searchContainerMain {
+    width: 60%;
+  }
+
+  .searchContainer {
+    width: 100%;
+  }
+
+  .searchIcon {
+    width: 10%;
+    right: 0%;
+  }
+
+  .navItemsLink {
+    margin-left: 30%;
+  }
+}
+
+@media (max-width: 400px) {
+  .signIn {
+    width: 80%;
+  }
+
+  .logoutBtn {
+    padding: 8%;
+    font-size: 1rem;
+  }
+
+  .navProfileIcon {
+    font-size: 1.5rem;
+  }
+
+  .searchContainerMain {
+    width: 50%;
+  }
+
+  .searchIcon {
+    width: 13%;
+    right: 1%;
+  }
+  .searchColseIcon {
+    font-size: 0.9rem;
+    right: 15%;
+  }
+
+  .navItemsLink {
+    margin-left: 30%;
+  }
+}

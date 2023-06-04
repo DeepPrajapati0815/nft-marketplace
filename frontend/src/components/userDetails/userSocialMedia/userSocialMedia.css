@@ -1,0 +1,86 @@
+.socialMediaContainerMain {
+  float: right;
+  margin-right: 20px;
+}
+
+.userSocialMediaContainer {
+  display: flex;
+  align-items: center;
+}
+
+.userSocialMediaLink {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.7rem;
+  margin: 0 10px 0 10px;
+}
+
+.userSocialMediaHr {
+  border: 2px solid #ffffff79;
+  margin: 0 10px 0 10px;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.userWebsite:hover {
+  color: #8d6dff;
+}
+
+.userInstagram:hover {
+  color: #c42e77;
+}
+
+.userTwitter:hover {
+  color: #00bbff;
+}
+
+.userShareIcon:hover {
+  color: brown;
+}
+
+.userShowMoreIcon:hover {
+  color: yellow;
+}
+
+.settingItemContainer {
+  position: absolute;
+  right: 2%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.SettingItemBtn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  font-size: 1rem;
+  background: #b6acac2d;
+}
+
+.SettingItemBtn:hover {
+  background: #65656575;
+}
+
+@media (max-width: 650px) {
+  .socialMediaContainerMain {
+    margin-top: -30px;
+  }
+  .userSocialMediaContainer {
+    flex-direction: column;
+  }
+  .userSocialMediaHr {
+    display: none;
+  }
+  .userSocialMediaIcons {
+    font-size: 1.5rem;
+    margin-top: 5px;
+  }
+}

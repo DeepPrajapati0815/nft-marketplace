@@ -1,0 +1,114 @@
+.profileFormContainerMain {
+  margin-top: 10px;
+  border: 1px solid #fff;
+  width: 45%;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+.profileFormContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.profileFormItemHeading {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.profileFormContainerInputContainer {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.profileFormContainerInput {
+  background: #1a1a1a;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  color: #fff;
+  border: 1px solid #ffffff8e;
+  border-radius: 5px;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+.profileFormContainerInput:hover {
+  background: #292929;
+  border: 1px solid #ffffff;
+}
+
+.profileFormSocialItemMainContainer {
+  margin: 20px 0;
+}
+
+.profileFormSocialConnectionIconAndBtnContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 5px;
+}
+
+.profileFormSocialConnectionPara {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.profileFormSocialConnectionIcon {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.profileFormSocialConnectionName {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.profileFormSocialCollectionBtnContainer {
+  width: 100%;
+}
+
+.profileFormSocialConnectBtn {
+  float: right;
+  padding: 5px 15px;
+  color: #fff;
+  background: #292929;
+  border-radius: 20px;
+  border: 1px solid #424242b0;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border: 1px solid #424242b0;
+}
+.profileFormSocialConnectBtn:hover {
+  background: #414141;
+  border: 1px solid #ffffffb0;
+}
+
+.profileSaveBtnContainer {
+  margin-top: 15px;
+}
+
+.profileSaveBtn {
+  color: #fff;
+  border: 1px solid #424242b0;
+  padding: 6px 10px;
+  width: 20%;
+  cursor: pointer;
+  background: #292929;
+  border-radius: 40px;
+  font-size: 1.2rem;
+}
+
+.profileSaveBtn:hover {
+  background: #414141;
+  border: 1px solid #fff;
+}
+
+@media (max-width: 850px) {
+  .profileFormContainerMain {
+    width: 90%;
+  }
+}

@@ -1,0 +1,39 @@
+.collectionOwnerAndVerificationContainer {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 15px;
+  gap: 5px;
+  align-items: center;
+}
+
+.collectionOwner {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.collectionOwnerVerificationImgContainer {
+  width: 2%;
+  margin-top: 5px;
+}
+
+.collectionOwnerVerificationImg {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .collectionOwnerVerificationImgContainer {
+    width: 3%;
+  }
+}
+
+@media (max-width: 600px) {
+  .collectionOwnerVerificationImgContainer {
+    width: 4%;
+  }
+}
+
+@media (max-width: 400px) {
+  .collectionOwnerVerificationImgContainer {
+    width: 5%;
+  }
+}

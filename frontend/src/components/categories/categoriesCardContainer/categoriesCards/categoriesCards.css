@@ -1,0 +1,175 @@
+.categoriesCardsContainer {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  max-width: fit-content;
+  /* height: 35vh; */
+  background: #ffffff22;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.categoriesCardsCollectionImgAndCollectionNameContainer {
+  display: flex;
+  align-items: center;
+  margin: 15px 10px 10px 10px;
+  gap: 5px;
+}
+
+.categoriesCardsCollectionImgContainer {
+  /* width: 100%; */
+  width: 500px;
+  height: 8vh;
+  margin-top: 12px;
+}
+
+.categoriesCardsCollectionImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.categoriesCardsCollectionNameContainerMain {
+  margin-left: 10px;
+}
+
+.categoriesCardsCollectionNameContainer {
+  display: flex;
+  align-items: center;
+}
+
+.categoriesCardsCollectionName {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.categoriesCardsCollectionNameVerificationImg {
+  width: 5%;
+  margin-left: 10px;
+}
+
+.categoriesCardsCollectionNumberOfItemsContainer {
+  margin-top: 3px;
+}
+
+.categoriesCardsCollectionNumberOfItems {
+  color: #ffffff94;
+}
+
+.categoriesCardsDataContainer {
+  margin-left: 10px;
+}
+
+.categoriesCardsData {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.categoriesCardsImageContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  height: 17vh;
+  padding: 5px;
+}
+
+.categoriesCardsImage {
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1100px) {
+  .categoriesCardsCollectionImgContainer {
+    height: 6vh;
+  }
+  .categoriesCardsCollectionNameContainer {
+    margin-top: 10px;
+  }
+  .categoriesCardsCollectionNameVerificationImg {
+    width: 7%;
+    margin-left: 10px;
+  }
+  .categoriesCardsImageContainer {
+    margin-top: 10px;
+    height: 15vh;
+  }
+
+  .categoriesCardsImage {
+    width: 30%;
+  }
+}
+
+@media (max-width: 900px) {
+  .categoriesCardsContainer {
+    width: 35vw;
+  }
+  .categoriesCardsCollectionImgContainer {
+    height: 6vh;
+  }
+  .categoriesCardsCollectionNameVerificationImg {
+    width: 10%;
+    margin-left: 10px;
+  }
+  .categoriesCardsCollectionNameContainer {
+    margin-top: 10px;
+  }
+  .categoriesCardsImageContainer {
+    margin-top: 10px;
+    height: 13vh;
+  }
+
+  .categoriesCardsImage {
+    width: 25%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .categoriesCardsContainer {
+    width: 45vw;
+  }
+  .categoriesCardsCollectionImgContainer {
+    height: 5vh;
+  }
+  .categoriesCardsCollectionNameVerificationImg {
+    width: 10%;
+    margin-left: 10px;
+  }
+  .categoriesCardsCollectionNameContainer {
+    margin-top: 10px;
+  }
+  .categoriesCardsImageContainer {
+    margin-top: 10px;
+    height: 12vh;
+  }
+
+  .categoriesCardsImage {
+    width: 27%;
+    height: 100%;
+  }
+
+  .categoriesCardsCollectionName {
+    font-size: 1.1rem;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 400px) {
+  .categoriesCardsContainer {
+    width: 70vw;
+  }
+  .categoriesCardsCollectionNameVerificationImg {
+    width: 10%;
+    margin-left: 10px;
+  }
+}

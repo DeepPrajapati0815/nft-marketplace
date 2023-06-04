@@ -1,0 +1,27 @@
+.chooseCollectionItemsMainContainer {
+  background-color: hsl(0, 0%, 11%);
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 5px;
+  border: 1px solid #fff;
+}
+
+.chooseCollectionContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  background: #1c1c1c;
+  border: none;
+  gap: 20px;
+}
+
+.chooseCollectionImage {
+  width: 10%;
+}
+
+.chooseCollectionHeading {
+  color: #fff;
+  font-size: 1.3rem;
+}

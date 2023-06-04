@@ -1,0 +1,33 @@
+.nftPhotoContainer {
+  height: 500px;
+  width: 500px;
+  margin: 100px;
+}
+
+.nftPhoto {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+  object-fit: cover;
+}
+
+@media (max-width: 1250px) {
+  .nftPhotoContainer {
+    height: 300px;
+    width: 300px;
+    margin: 70px 0 0 0;
+  }
+}
+
+@media (max-width: 410px) {
+  .nftPhotoContainer {
+    height: 250px;
+    width: 250px;
+    margin: 70px 0 0 0;
+  }
+  .nftPhoto {
+    width: 100%;
+    height: 100%;
+  }
+}

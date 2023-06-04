@@ -1,0 +1,31 @@
+.sortListContainer {
+  float: right;
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  padding: 10px;
+  border: 1px solid #ffffffcb;
+  border-radius: 10px;
+  background: black;
+}
+
+.SortListBtn {
+  background: black;
+  margin: 3px 0;
+  padding: 5px 10px;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.SortListBtn:hover {
+  background: #ffffff3e;
+}

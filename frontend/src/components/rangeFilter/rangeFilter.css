@@ -1,0 +1,46 @@
+.rangeFilterContainer {
+  width: 90%;
+  margin-left: 20px;
+}
+
+.priceRangeHeading {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.priceInput {
+  width: 30%;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 1.1em;
+  background: #16161690;
+  color: #fff;
+  border: 1px solid rgba(128, 128, 128, 0.221);
+  border-radius: 3px;
+}
+
+.priceInput::-webkit-outer-spin-button,
+.priceInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.priceInput[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+.priceInput:hover {
+  background: #16161690;
+}
+
+.priceInput:active {
+  background: #242424;
+}
+
+.colon {
+  display: inline-block;
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}

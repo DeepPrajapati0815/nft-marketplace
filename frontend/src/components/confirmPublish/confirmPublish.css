@@ -1,0 +1,54 @@
+.ConfirmPublishContainerMain {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ConfirmPublishContainer {
+  height: 30vh;
+  width: 40%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.confirmPublishHeadingContainer {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.confirmPublishHeading {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 350;
+}
+
+.ConfirmPublishBtnContainer {
+  display: flex;
+  height: 15vh;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.ConfirmPublishBtn {
+  background: #353535;
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 20%;
+  padding: 10px 10px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  border: 1px solid #353535;
+  cursor: pointer;
+}
+
+.ConfirmPublishBtn:hover {
+  border: 1px solid #ffffff6d;
+  background: #4f4f4f;
+}
